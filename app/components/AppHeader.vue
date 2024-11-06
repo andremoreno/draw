@@ -10,15 +10,10 @@ const { loggedIn, clear } = useUserSession()
         class="flex items-center gap-1 flex-shrink-0 font-bold text-xl text-gray-900 dark:text-white flex items-end gap-1.5"
       >
         <UIcon name="i-ph-image-square-duotone" />
-        <h3>Instadraw</h3>
+        <h3>pix.web.id</h3>
       </NuxtLink>
       <div class="flex items-center justify-end lg:flex-1 gap-1.5">
-        <UButton
-          to="https://git.new/draw"
-          color="gray"
-          variant="ghost"
-          icon="i-simple-icons-github"
-        />
+
         <UButton
           to="/draw"
           icon="i-ph-pencil"

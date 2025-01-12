@@ -100,15 +100,7 @@ async function save(dataURL: string) {
           class="text-center"
         >
           No personal informations regarding your GitHub or Google account are stored in database.
-          Only your drawings created are stored with your username and avatar from these providers. Checkout the <UButton
-            to="https://git.new/draw"
-            variant="link"
-            color="black"
-            :padded="false"
-            target="_blank"
-          >
-            source code
-          </UButton> of this application.
+          Only your drawings created are stored with your username and avatar from these providers.
         </p>
       </div>
     </div>
